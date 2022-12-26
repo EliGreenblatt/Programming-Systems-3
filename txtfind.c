@@ -38,6 +38,7 @@ int main()
         findWords(keyWord);
     }
 
+    return 1;
 }
 
 // take input from user for they keyword
