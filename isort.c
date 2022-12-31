@@ -68,6 +68,11 @@ void printNumbers(int * arr , int len)
 {
     for (int i = 0; i < len; i++)
     {
+        if (i == len - 1)
+        {
+            printf("%d" ,*(arr + i));
+            break;
+        }
         printf("%d,", *(arr + i));
     }
     

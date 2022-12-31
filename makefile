@@ -1,7 +1,6 @@
-all: Isort.o txtfind.o
+all: isort txtfind
 
-Isort.o: Isort.c
-	gcc -Wall -c Isort.c -o isort
-
-txtfind.o: txtfind.c
+isort.c:
+	gcc -Wall -c isort.c -o isort
+txtfind.c:
 	gcc -Wall -c txtfind.c -o txtfind
