@@ -16,7 +16,7 @@ int main()
     enterNumbers(arr , SIZE);
     insertion_sort(arr , SIZE);
     printNumbers(arr , SIZE);
-
+    printf("\n");
     return 0;
 }
 
