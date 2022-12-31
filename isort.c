@@ -17,7 +17,7 @@ int main()
     insertion_sort(arr , SIZE);
     printNumbers(arr , SIZE);
 
-    return 1;
+    return 0;
 }
 
 
