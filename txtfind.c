@@ -53,7 +53,7 @@ void inputKeyword(char * str)
         i++; 
     }
 
-    str[i - 1] = '\0';
+    str[i - 1] = '\0'; // when we are done with the word we add a \0 to the end
 }
 
 // take input from user as what search option to use
